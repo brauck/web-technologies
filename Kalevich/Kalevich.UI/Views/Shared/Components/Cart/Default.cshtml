@@ -1,4 +1,4 @@
 ﻿<a asp-controller="Cart"
    asp-action="Index" class="navbar-text ms-auto">
-    @ViewData["summary"].ToString() руб <i class="fa-solid fa-cart-shopping"></i> (@ViewData["quantity"].ToString())
+    @String.Format("{0:0.00}", ViewData["summary"].ToString()) руб <i class="fa-solid fa-cart-shopping"></i> (@ViewData["quantity"].ToString())
 </a>
