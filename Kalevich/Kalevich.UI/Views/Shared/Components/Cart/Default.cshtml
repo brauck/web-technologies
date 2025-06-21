@@ -1,5 +1,4 @@
-﻿[ViewComponentAttribute]
-<a asp-controller="Cart"
+﻿<a asp-controller="Cart"
    asp-action="Index" class="navbar-text ms-auto">
-    00,0 руб <i class="fa-solid fa-cart-shopping"></i> (0)
+    @ViewData["summary"].ToString() руб <i class="fa-solid fa-cart-shopping"></i> (@ViewData["quantity"].ToString())
 </a>
