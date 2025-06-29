@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalevich.UI", "Kalevich.UI\Kalevich.UI.csproj", "{3FE7B693-6BA8-CE8D-DE12-03424B5BCE55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalevich.Tests", "Kalevich.Tests\Kalevich.Tests.csproj", "{F2FB9681-A547-9045-72C8-1BE7CAE63A3E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalevich.Domain", "Kalevich.Domain\Kalevich.Domain.csproj", "{5F3553AD-8B43-34E2-BE52-374D01018901}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalevich.Blazor", "Kalevich.Blazor\Kalevich.Blazor.csproj", "{7CBC0EA6-FFEC-3712-E63C-9320A16D7AB7}"
