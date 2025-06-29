@@ -5,19 +5,19 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using NSubstitute;
 using OSS.API.Controllers;
-using OSS.UI.Controllers;
-using OSS.UI.Services.CategoryService;
-using OSS.UI.Services.ProductService;
-using OSS30333.API.Data;
-using OSS30333.Domain.Entities;
-using OSS30333.Domain.Models;
+using Kalevich.UI.Controllers;
+using Kalevich.UI.Services.CategoryService;
+using Kalevich.UI.Services.ProductService;
+using Kalevich.API.Data;
+using Kalevich.Domain.Entities;
+using Kalevich.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OSS.Tests
+namespace Kalevich.Tests
 {
 
     public class ProductAPIControllerTests : IDisposable
